@@ -34,56 +34,10 @@
         </div>
 
         <div id="links">
-            <li><a href="index.php">home</a></li>
+            <li><a href="index.html">home</a></li>
         </div>
 
     </div>
-
-    <!--php-->
-    <!-- <?php
-
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $fname = $_POST['fname'];
-        $lname = $_POST['lname'];
-        $email = $_POST['email'];
-        $textarea = $_POST['textarea'];
-
-        $servername = "localhost";
-        $username = "root";
-        $password = "";
-        $dbname = "hustler-entrepreneur";
-
-        //create connection
-        $conn = new mysqli($servername, $username, $password, $dbname);
-        //checking connection
-        if (!$conn) {
-            die("Connection Failed!" . mysqli_connect_error());
-        } else {
-            $sql = "INSERT INTO `newcontact` ( `Fname`, `Lname`, `Email`, `SMS`) 
-        VALUES ('$fname', '$lname', '$email', '$textarea')";
-            $result = mysqli_query($conn, $sql);
-
-            if ($result) {
-                echo '<div class="alert alert-light" role="alert">
-               Message has been sended successfully.
-              </div>';
-                header("location:http://localhost/anuj/anujenterprises/");
-                
-            } else {
-                echo '<div class="alert alert-light" role="alert">
-             <strong>Error :</strong> Message has not been sended.
-              </div>';
-            }
-        }
-    }
-b
-
-    ?> -->
-
-
-    <!--php-->
-
-
 
     <div id="contact-us">
         <div class="contact-cont-1">
@@ -93,7 +47,7 @@ b
                 you did like to contact below.</p>
         </div>
         <div class="contact-cont-2">
-            <!-- action="contact.php"  method="POST"  -->
+      
             <form action="https://formspree.io/f/xgegqvgv" method="POST" id="contactus-form">  
                 <div class="first-and-last-name">
                     <div id="first-name">
