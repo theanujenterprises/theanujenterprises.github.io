@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #e2ff99;
+    background-image:
+
+        radial-gradient(at 82% 88%, hsla(16, 82%, 62%, 1) 0px, transparent 50%),
+        radial-gradient(at 81% 53%, hsla(131, 60%, 62%, 1) 0px, transparent 50%),
+        radial-gradient(at 43% 22%, hsla(320, 82%, 74%, 1) 0px, transparent 50%),
+        radial-gradient(at 58% 16%, hsla(282, 89%, 60%, 1) 0px, transparent 50%),
+        radial-gradient(at 55% 93%, hsla(69, 88%, 67%, 1) 0px, transparent 50%),
+        radial-gradient(at 19% 52%, hsla(205, 97%, 69%, 1) 0px, transparent 50%),
+        radial-gradient(at 94% 36%, hsla(43, 63%, 70%, 1) 0px, transparent 50%);
+
+
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* border: 2px solid red; */
+    height: 100px;
+    align-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* background-color: #7e9a9a; */
+}
+
+#logo {
+    display: flex;
+    font-size: 2vw;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* #log1{
+
+}
+#log2{
+
+} */
+#links {
+    /* text-align: end; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+#links li {
+    list-style: none;
+
+}
+
+#links li a {
+    text-decoration: none;
+    font-size: 2vw;
+    text-transform: uppercase;
+    color: black;
+    font-family: "Tac One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hustler-container {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    height: 100vh;
+}
+
+#hustler-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hustler-img img {
+    border-radius: 30px;
+    box-shadow: 10px 10px 4px 6px rgba(0, 0, 0, 0.334);
+    width: 34.193548vw;
+    height: 40.258065vw;
+
+
+}
+
+#hustler-profile {
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    /* background-color: brown; */
+}
+
+#hustler-profile h1 {
+    /* border: 2px solid red; */
+    width:35.96774193548387vw;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vw;
+
+
+}
+
+#hustler-profile p {
+    /* border: 2px solid red; */
+    width: 35.96774193548387vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* .hustler {
+    border: 2px solid red;
+} */
+#hustler-links li {
+    list-style: none;
+    border: 1px solid black;
+    display: block;
+    width: 35.96774193548387vw;
+    text-align: center;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#hustler-links li a {
+
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#hustler-links li a:hover {
+    text-decoration: underline;
+}
+
+#social-med-account a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,236 @@
+@media only screen and (max-width:400px) {
+    .hustler-container {
+        grid-template-rows: auto auto;
+    }
+
+    .navbar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #links li a {
+        font-size: 4vw;
+    }
+
+    #logo {
+        font-size: 4vw;
+    }
+
+    #hustler-img img {
+        /* width: 54.6774193548387vw;
+        height: 54.6774193548387vw; */
+        width: 54.193548vw;
+        height: 60.258065vw;
+ 
+        box-shadow: 5px 5px 12px 3px rgb(0 0 0 / 33%);
+
+    }
+
+    #hustler-profile h1 {
+        width: 65.96774193548387vw;
+        font-size: 10vw;
+        text-align: center;
+    }
+
+    #hustler-profile p {
+        width: 65.96774193548387vw;
+        text-align: center;
+        font-size: 3vw;
+
+    }
+
+    #hustler-links li {
+        width: 65.96774193548387vw;
+
+
+    }
+
+    #hustler-links li a {
+        font-size: 4vw;
+
+
+    }
+
+    #social-med-account a {
+        font-size: 4.5vw
+    }
+
+    .hustler-container {
+        height: auto;
+    }
+
+    #copyright-reserved {
+        font-size: 4vw;
+    }
+
+}
+
+@media (min-width:400px) and (max-width:600px) {
+    .hustler-container {
+        grid-template-rows: auto auto;
+    }
+    
+
+    .navbar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #links li a {
+        font-size: 4vw;
+    }
+
+    #logo {
+        font-size: 4vw;
+    }
+
+    #hustler-img img {
+        /* width: 54.6774193548387vw;
+        height:54.6774193548387vw; */
+        width: 54.193548vw;
+        height: 60.258065vw;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        box-shadow: 8px 10px 12px 3px rgb(0 0 0 / 33%);
+
+
+    }
+
+    #hustler-profile h1 {
+        width: 65.96774193548387vw;
+        font-size: 10vw;
+        text-align: center;
+    }
+
+    #hustler-profile p {
+        width: 65.96774193548387vw;
+        text-align: center;
+        font-size: 3vw;
+
+    }
+    #hustler-links{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #hustler-links li {
+        width: 65.96774193548387vw;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    #hustler-links li a {
+        font-size: 4vw;
+
+
+    }
+
+    #social-med-account a {
+        font-size: 4.5vw
+    }
+
+    .hustler-container {
+        height: auto;
+    }
+
+    #copyright-reserved {
+        font-size: 4vw;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width:600px) and (max-width:768px) {
+    .hustler-container {
+        grid-template-rows: auto auto;
+    }
+   
+
+    .navbar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #links li a {
+        font-size: 4vw;
+    }
+
+    #logo {
+        font-size: 4vw;
+    }
+
+    #hustler-img img {
+        /* width: 44.6774193548387vw;
+        height:44.6774193548387vw; */
+        width: 44.193548vw;
+        height: 50.258065vw;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        box-shadow: 8px 10px 12px 3px rgb(0 0 0 / 33%);
+
+    }
+
+    #hustler-profile h1 {
+        width: 65.96774193548387vw;
+        font-size: 10vw;
+        text-align: center;
+    }
+
+    #hustler-profile p {
+        width: 65.96774193548387vw;
+        text-align: center;
+        font-size: 3vw;
+
+    }
+    #hustler-links{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #hustler-links li {
+        width: 65.96774193548387vw;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    #hustler-links li a {
+        font-size: 4vw;
+
+
+    }
+
+    #social-med-account a {
+        font-size: 4.5vw
+    }
+
+    .hustler-container {
+        height: auto;
+    }
+
+    #copyright-reserved {
+        font-size: 4vw;
+        margin-top: 30px; ;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .hustler-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/* for pc and laptop */
+
+@media (min-width:992px) and (max-width:1200px) {
+    .hustler-container {
+        grid-template-columns: 1fr 1fr;
+    }
+   
+}
+
+@media only screen and (min-width:1200px) {
+    .hustler-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
